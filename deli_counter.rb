@@ -23,7 +23,7 @@ def now_serving(katz_deli)
   if katz_deli.length==0
   puts "There is nobody waiting to be served!"
   else
-    katz_deli.each do |person|
+    katz_deli.each.with_index do |person,i|
     puts "Currently serving #{person}."
     other_deli<< person=katz_deli.pop 
   end
