@@ -17,3 +17,10 @@ def take_a_number (katz_deli,name)
       puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
   katz_deli
 end
+
+
+ #describe "#now_serving" do
+    #context "there are no people in line" do
+     # it "should say that the line is empty" do
+      #  expect($stdout).to receive(:puts).with("There is nobody waiting to be served!")
+        now_serving(katz_deli)
