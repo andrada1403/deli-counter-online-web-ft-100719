@@ -24,3 +24,8 @@ end
      # it "should say that the line is empty" do
       #  expect($stdout).to receive(:puts).with("There is nobody waiting to be served!")
         now_serving(katz_deli)
+         context "there are people in line" do
+      #it "should serve the first person in line and remove them from the queue" do
+        #expect($stdout).to receive(:puts).with("Currently serving Logan.")
+        #now_serving(other_deli)
+        #expect(other_deli).to eq(%w(Avi Spencer))
