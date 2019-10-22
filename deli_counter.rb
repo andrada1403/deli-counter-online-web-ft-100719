@@ -25,9 +25,8 @@ def now_serving(katz_deli)
   else
     katz_deli.each do |person|
     puts "Currently serving #{person}."
-    other_deli<< katz_deli.pop (person 
+    other_deli<< person=katz_deli.pop 
   end
-  
   end
 end
 
