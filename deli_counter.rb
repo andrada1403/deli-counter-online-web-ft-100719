@@ -19,14 +19,10 @@ def take_a_number (katz_deli,name)
 end
 
 def now_serving(katz_deli)
-  other_deli=[]
   if katz_deli.length==0
   puts "There is nobody waiting to be served!"
   else
-    katz_deli.each.with_index do |person,i|
-    puts "Currently serving #{person}."
-    other_deli<< person=katz_deli.pop 
-  end
+    puts "Currently serving #{katz_deli[0]}."
   end
 end
 
