@@ -25,6 +25,7 @@ def now_serving(katz_deli)
     katz_deli.each |person|
     puts "Currently serving #{person}."
   end
+  
   end
 end
 
